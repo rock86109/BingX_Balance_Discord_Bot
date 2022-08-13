@@ -1,0 +1,6 @@
+.env
+
+APIURL=https://api-swap-rest.bingbon.pro
+TOKEN=Discord-bot-token
+APIKEY=BingXApiKey
+SECRETKEY=BingXApiSecret
