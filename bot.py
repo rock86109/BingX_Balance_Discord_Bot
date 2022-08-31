@@ -31,9 +31,9 @@ class MyClient(discord.Client):
         print('------')
 
     async def on_message(self, message):
-        if message.content == '.ping':
+        if message.content == '.p':
             await message.reply("pong!!")
-        elif message.content == '.bal':
+        elif message.content == '.':
             await message.reply(str(self.getBalance()).split(',')[5].replace('"balance":', '')) # ["data"]["account"]["balance"]
 
 
